@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="g-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"  stop-color="#ffffff" stop-opacity="0.94"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.52"/>
+    </linearGradient>
+  </defs>
+  <text x="320" y="220" text-anchor="middle"
+        font-family="-apple-system, 'SF Pro Display', sans-serif"
+        font-size="160" font-weight="700" fill="url(#g-grad)" letter-spacing="-10">3G</text>
+  <text x="320" y="268" text-anchor="middle"
+        font-family="ui-monospace, monospace" font-size="12"
+        fill="#ffffff" fill-opacity="0.5" letter-spacing="6">GLOBAL HOLDINGS</text>
+</svg>

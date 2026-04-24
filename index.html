@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Joshua Grams · Builder portfolio</title>
+  <meta name="description" content="Full-stack engineer shipping algorithmic trading systems, data intelligence dashboards, iOS/BLE apps, and autonomous brand automation." />
+  <link rel="stylesheet" href="style.css" />
+  <meta property="og:title" content="Joshua Grams · Builder portfolio" />
+  <meta property="og:description" content="Trading systems, prediction-market intelligence, iOS apps, and data dashboards. Six live projects, public evidence." />
+  <meta property="og:type" content="website" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="nav-brand">
+        <span class="dot"></span>
+        <span>jrgramsdev</span>
+      </div>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/jrgramsdev" target="_blank" rel="noopener">GitHub</a>
+        <a href="resume.html" class="cta">Resume</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-tag"><span class="dot"></span> Mechanical engineer · Product development · AI systems</div>
+    <h1>I build <span class="emphasis">systems that run themselves</span>.</h1>
+    <p class="hero-sub">
+      20+ years in hardware — concept through manufacturing and commercialization —
+      layered with modern software: live algorithmic trading, iOS + BLE reverse
+      engineering, public data dashboards, and AI-agent automation. Shipped, running,
+      verifiable.
+    </p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#projects">See the work →</a>
+      <a class="btn" href="resume.html">Resume</a>
+      <a class="btn" href="https://github.com/jrgramsdev" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </header>
+
+  <!-- STATS -->
+  <section class="stats-strip">
+    <div class="stats-strip-inner">
+      <div class="stat">
+        <div class="stat-num">20+</div>
+        <div class="stat-label">Years in engineering &amp; product dev</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">$1.6M+</div>
+        <div class="stat-label">Sales · 3G Global Holdings &amp; 3GRAMS™</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">$10M</div>
+        <div class="stat-label">Manufacturing accounts (STIIIZY)</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">7</div>
+        <div class="stat-label">Production software systems</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">13+</div>
+        <div class="stat-label">Live data integrations</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">21K+</div>
+        <div class="stat-label">Instagram followers (@jrgramsdev)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-label">Projects</div>
+    <h2>Seven systems, all running live.</h2>
+    <p class="lead">Each one built end-to-end — backend, data integration, risk controls, UI. Not demos. Real infrastructure that trades real money, tracks real filings, and ships to real users.</p>
+
+    <div class="projects-grid">
+
+      <!-- KING50 DEFENSE -->
+      <article class="project">
+        <div class="project-media"><img src="assets/defense.svg" alt="Tactical radar visualization" loading="lazy" /></div>
+        <div class="project-head">
+          <div class="project-name">KING50 Defense</div>
+          <span class="project-badge live">Demonstrator</span>
+        </div>
+        <div class="project-tagline">Aerospace tactical dashboard</div>
+        <p class="project-desc">
+          Real-time tactical dashboard demonstrator for aerospace &amp; defense.
+          2D radar canvas with 360° sweep, range rings, and threat blips.
+          Simulated fighter telemetry across F-35, F-16, Su-57, J-20, and Gripen
+          platforms with pilot biometric monitoring (heart rate, stress, alertness).
+          Threat-archetype profiling layer and three-tier engagement controls
+          (lock / track / engage) for human-operator decision support.
+          WebSocket broadcast, Apple-design frontend.
+        </p>
+        <div class="project-stack">
+          <span class="chip">Node.js</span>
+          <span class="chip">Express</span>
+          <span class="chip">WebSocket</span>
+          <span class="chip">Canvas 2D</span>
+          <span class="chip">Threat profiling</span>
+        </div>
+        <div class="project-links">
+          <a href="#about">Architecture notes →</a>
+        </div>
+      </article>
+
+      <!-- PYRA -->
+      <article class="project">
+        <div class="project-media"><img src="assets/pyra.svg" alt="iOS app with BLE signal rings" loading="lazy" /></div>
+        <div class="project-head">
+          <div class="project-name">PYRA</div>
+          <span class="project-badge beta">iOS · Beta</span>
+        </div>
+        <div class="project-tagline">Independent BLE controller for Puffco hardware</div>
+        <p class="project-desc">
+          Native iOS + Mac Catalyst app built in SwiftUI. Reverse-engineered the AeroFrame
+          BLE protocol (SHA-256 challenge-response over GATT) to build a fully independent
+          controller for the Puffco Peak Pro / Proxy / Opal line. FaceID lock, voice
+          commands via SFSpeech, background BLE mode, cinematic HUD with telemetry strip
+          and concentric rings. TestFlight-ready, bundle <code>io.pyra.blecontroller</code>.
+        </p>
+        <div class="project-stack">
+          <span class="chip">SwiftUI</span>
+          <span class="chip">Core Bluetooth</span>
+          <span class="chip">Mac Catalyst</span>
+          <span class="chip">SFSpeech</span>
+          <span class="chip">FaceID</span>
+        </div>
+        <div class="project-links">
+          <a href="#about">Architecture notes →</a>
+        </div>
+      </article>
+
+      <!-- TESLAPULSE -->
+      <article class="project">
+        <div class="project-media"><img src="assets/teslapulse.svg" alt="Data pulse waveform" loading="lazy" /></div>
+        <div class="project-head">
+          <div class="project-name">TeslaPulse</div>
+          <span class="project-badge public">Public · Open Source</span>
+        </div>
+        <div class="project-tagline">Public Tesla operating-signals dashboard</div>
+        <p class="project-desc">
+          Open-source data dashboard tracking Tesla execution across 20+ live signals:
+          Supercharger network, quarterly deliveries, FSD miles, NHTSA recalls, SEC EDGAR
+          filings, FCC filings, Megapack, trademarks, VIN decoder, cross-EV comparison,
+          Elon Form 4 holdings parsed from live XML, and a composite 0–100 Velocity Index.
+          Every number cites its source. Shipped as 35 commits in a single 4.5-hour session.
+        </p>
+        <div class="project-stack">
+          <span class="chip">Node.js</span>
+          <span class="chip">Express</span>
+          <span class="chip">SQLite</span>
+          <span class="chip">launchd cron</span>
+          <span class="chip">vanilla JS</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/jrgramsdev/teslapulse" target="_blank" rel="noopener">GitHub →</a>
+          <a href="https://teslapulse.xyz" target="_blank" rel="noopener">Live site →</a>
+        </div>
+      </article>
+
+      <!-- KING50 FINANCE -->
+      <article class="project">
+        <div class="project-media"><img src="assets/finance.svg" alt="Algorithmic trading chart" loading="lazy" /></div>
+        <div class="project-head">
+          <div class="project-name">KING50 Finance</div>
+          <span class="project-badge live">Live</span>
+        </div>
+        <div class="project-tagline">Behavioral-signal crypto trading engine</div>
+        <p class="project-desc">
+          Production algorithmic trading on Binance.US. Multi-indicator fusion across
+          RSI / EMA / BB / MACD / VWAP, ATR-adaptive TP/SL, OCO order management,
+          Kelly-aware sizing. Kill-switch risk engine with daily-loss caps, per-loss
+          cooldowns, rolling-drawdown lockouts, and credential-hygiene discipline
+          (nothing logged). Live micro-mode real-money execution since April 2026.
+        </p>
+        <div class="project-stack">
+          <span class="chip">Node.js</span>
+          <span class="chip">WebSocket</span>
+          <span class="chip">Binance.US API</span>
+          <span class="chip">SQLite</span>
+          <span class="chip">Prometheus</span>
+        </div>
+        <div class="project-links">
+          <a href="#about">Architecture notes →</a>
+        </div>
+      </article>
+
+      <!-- KALSHI -->
+      <article class="project">
+        <div class="project-media"><img src="assets/kalshi.svg" alt="Probability curve and outcome bars" loading="lazy" /></div>
+        <div class="project-head">
+          <div class="project-name">Kalshi Observer</div>
+          <span class="project-badge paper">Paper · Pre-Live</span>
+        </div>
+        <div class="project-tagline">CFTC-regulated prediction-market trader</div>
+        <p class="project-desc">
+          US-legal prediction market trading infrastructure. Scans ~11,000 live markets per
+          cycle. RSA-PSS + SHA-256 signed auth with keys held in closure (never logged).
+          Cross-references Kalshi weather markets against live NOAA GFS forecasts for
+          model-shift signals. Signal confidence scorer grades every market 0–100.
+          Double-lock live-executor — dry-run by default, requires explicit acknowledgment
+          string to route real orders.
+        </p>
+        <div class="project-stack">
+          <span class="chip">Node.js</span>
+          <span class="chip">RSA-PSS</span>
+          <span class="chip">NOAA GFS</span>
+          <span class="chip">Kalshi REST</span>
+        </div>
+        <div class="project-links">
+          <a href="#about">Architecture notes →</a>
+        </div>
+      </article>
+
+      <!-- POLYCLAW -->
+      <article class="project">
+        <div class="project-media"><img src="assets/polyclaw.svg" alt="Binary market price indicator" loading="lazy" /></div>
+        <div class="project-head">
+          <div class="project-name">Polyclaw Observer</div>
+          <span class="project-badge paper">Paper</span>
+        </div>
+        <div class="project-tagline">Polymarket signal intelligence layer</div>
+        <p class="project-desc">
+          Read-only Polymarket observer evaluating whether behavioral-signal trading
+          produces real edge on binary event markets. Gamma API integration, Kelly-sized
+          paper positions, per-signal-slot isolation (so short-horizon signals aren't
+          monopolized by long-horizon ones), drawdown lockouts, 1,600+ positions tracked
+          across DURATION_NO, MOMENTUM_FADE, LOCAL_EXTREME, DRAMA_FADE, CRYPTO_LAG.
+          EIP-712 CLOB order specs scaffolded for future go-live.
+        </p>
+        <div class="project-stack">
+          <span class="chip">Node.js</span>
+          <span class="chip">Polymarket Gamma</span>
+          <span class="chip">EIP-712</span>
+          <span class="chip">Kelly sizing</span>
+        </div>
+        <div class="project-links">
+          <a href="#about">Architecture notes →</a>
+        </div>
+      </article>
+
+      <!-- 3GRAMS -->
+      <article class="project">
+        <div class="project-media"><img src="assets/3grams.svg" alt="3G Global Holdings brand mark" loading="lazy" /></div>
+        <div class="project-head">
+          <div class="project-name">3G Global Holdings &amp; 3GRAMS™</div>
+          <span class="project-badge public">Brand · In market</span>
+        </div>
+        <div class="project-tagline">Consumer hardware, direct-to-consumer e-commerce</div>
+        <p class="project-desc">
+          Founded 2020. $1.6M+ in proprietary hardware sales through direct-to-consumer
+          execution. Six manufacturing partners worldwide capable of full IoT
+          product development. Under development: autonomous Instagram growth stack
+          on Meta Graph API — content generation, scheduling, analytics, engagement
+          automation — managed from a Next.js + TypeScript operations dashboard.
+        </p>
+        <div class="project-stack">
+          <span class="chip">Product dev</span>
+          <span class="chip">Overseas manufacturing</span>
+          <span class="chip">Shopify</span>
+          <span class="chip">Next.js</span>
+          <span class="chip">Meta Graph API</span>
+        </div>
+        <div class="project-links">
+          <a href="https://3grams.com" target="_blank" rel="noopener">Storefront →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-label">About</div>
+    <h2>Builder. Operator. Shipper.</h2>
+
+    <div class="about-grid">
+      <div>
+        <p>
+          <strong>I've been building hardware for 20+ years.</strong> Concept through
+          CAD, through prototyping, through overseas manufacturing and commercialization.
+          Founded <strong>3G Global Holdings &amp; 3GRAMS™</strong> in 2020 and scaled
+          it past <strong>$1.6M in sales</strong> on proprietary product design. Before that — and during — I led product
+          development at STIIIZY / Shryne Group, managing <strong>$10M manufacturing
+          accounts</strong> at a $1.6B company, with factory partners in China and
+          patent / trademark support on the IP side.
+        </p>
+        <p>
+          <strong>The last few years I've layered on software and AI.</strong> Most of
+          what's on this site is live — executing real orders, polling real APIs,
+          writing to real logs. Full-stack across Node.js, SwiftUI, Next.js, Python.
+          I built autonomous AI agent and sub-agent systems to automate workflows and
+          accelerate execution, which is the thread that connects the hardware and
+          software work.
+        </p>
+        <p>
+          I like problems at the edges: <strong>design for manufacturability</strong>
+          and <strong>reverse engineering</strong> to avoid IP conflict; <strong>BLE
+          protocol reverse engineering</strong> with SHA-256 challenge-response for PYRA;
+          <strong>cryptographic auth</strong> (RSA-PSS signed Kalshi, EIP-712 for
+          Polymarket); <strong>data provenance</strong> (if a number shows on my
+          dashboard I can point you to the filing it came from); and <strong>adversarial
+          safety</strong> (every "live" flag on my trading code is double-locked and
+          logs zero credentials).
+        </p>
+        <p>
+          I ship fast. TeslaPulse — whole app, 20+ trackers, mobile audit — was
+          35 commits in a single 4.5-hour sitting. I'm now pursuing a transition
+          into aerospace &amp; defense where mechanical design, performance, analysis,
+          manufacturing, and software all converge.
+        </p>
+      </div>
+      <div>
+        <div class="skill-group">
+          <h3>Mechanical &amp; product dev</h3>
+          <div class="skill-list">
+            <span class="chip">Mechanical design</span>
+            <span class="chip">Product development</span>
+            <span class="chip">Prototyping</span>
+            <span class="chip">Reverse engineering</span>
+            <span class="chip">DFM</span>
+            <span class="chip">Patent / trademark support</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>CAD &amp; design tools</h3>
+          <div class="skill-list">
+            <span class="chip">SolidWorks</span>
+            <span class="chip">Shapr3D</span>
+            <span class="chip">Fusion 360</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Manufacturing &amp; supply chain</h3>
+          <div class="skill-list">
+            <span class="chip">Overseas manufacturing (China)</span>
+            <span class="chip">Factory &amp; supplier management</span>
+            <span class="chip">Quality control</span>
+            <span class="chip">Production planning</span>
+            <span class="chip">PCB coordination</span>
+            <span class="chip">Firmware coordination</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>AI &amp; automation</h3>
+          <div class="skill-list">
+            <span class="chip">AI agents / sub-agents</span>
+            <span class="chip">Autonomous workflows</span>
+            <span class="chip">Claude Agent SDK</span>
+            <span class="chip">Anthropic API</span>
+            <span class="chip">Prompt caching</span>
+            <span class="chip">Tool use / orchestration</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Software &amp; languages</h3>
+          <div class="skill-list">
+            <span class="chip">Python</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Swift / SwiftUI</span>
+            <span class="chip">Next.js</span>
+            <span class="chip">Express</span>
+            <span class="chip">SQLite</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Electronics &amp; BLE</h3>
+          <div class="skill-list">
+            <span class="chip">Core Bluetooth / GATT</span>
+            <span class="chip">BLE reverse engineering</span>
+            <span class="chip">SHA-256 challenge-response</span>
+            <span class="chip">Mac Catalyst</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Trading &amp; data infra</h3>
+          <div class="skill-list">
+            <span class="chip">Binance.US REST + WS</span>
+            <span class="chip">Kalshi (RSA-PSS)</span>
+            <span class="chip">Polymarket (EIP-712)</span>
+            <span class="chip">OCO orders</span>
+            <span class="chip">NHTSA / SEC EDGAR / FCC</span>
+            <span class="chip">NOAA GFS</span>
+            <span class="chip">Prometheus</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">// open to interesting work</div>
+      <div class="footer-links">
+        <a href="mailto:jrgramsdev@gmail.com">jrgramsdev@gmail.com</a>
+        <a href="https://github.com/jrgramsdev" target="_blank" rel="noopener">github</a>
+        <a href="https://instagram.com/jrgramsdev" target="_blank" rel="noopener">instagram</a>
+        <a href="resume.html">resume</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Subtle fade-up on scroll — Apple-style
+    (function () {
+      if (!('IntersectionObserver' in window)) return;
+      const targets = document.querySelectorAll('.hero > *, .section > *, .stats-strip-inner > *, .projects-grid > *');
+      targets.forEach(el => el.classList.add('reveal'));
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('in');
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      targets.forEach(el => io.observe(el));
+      // Ensure hero is visible on first paint without scroll
+      setTimeout(() => document.querySelectorAll('.hero > *').forEach(el => el.classList.add('in')), 60);
+    })();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="tp-pulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#e82127" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#e82127" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#e82127" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M20 180 L180 180 L210 100 L230 260 L260 140 L290 220 L320 60 L350 300 L380 180 L620 180"
+        stroke="url(#tp-pulse)" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+  <g opacity="0.16" fill="#fff">
+    <rect x="250" y="138" width="140" height="5"/>
+    <rect x="317" y="138" width="5" height="82"/>
+  </g>
+</svg>

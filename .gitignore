@@ -1,0 +1,8 @@
+# The plaintext source of the resume — NEVER commit this to a public repo.
+# resume.html (the encrypted, published version) is safe to commit.
+resume-source.html
+
+# OS / tool clutter
+.DS_Store
+.omc/
+node_modules/
