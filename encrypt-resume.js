@@ -133,10 +133,10 @@ const output = `<!doctype html>
 
   <nav class="nav resume-print-hide">
     <div class="nav-inner">
-      <div class="nav-brand">
+      <a class="nav-brand" href="index.html" aria-label="Home">
         <span class="dot"></span>
         <span>jrgramsdev</span>
-      </div>
+      </a>
       <div class="nav-links">
         <a href="index.html">← Portfolio</a>
         <a href="#" id="print-btn" class="cta" style="display:none;">Print / Save PDF</a>
