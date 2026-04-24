@@ -174,7 +174,7 @@ img { max-width: 100%; display: block; }
 .hero {
   max-width: var(--max-w);
   margin: 0 auto;
-  padding: 140px 28px 100px;
+  padding: 70px 28px 100px;
   position: relative;
 }
 .hero-tag {
@@ -242,7 +242,7 @@ img { max-width: 100%; display: block; }
 .btn.primary:hover { background: #ffa845; opacity: 1; }
 
 @media (max-width: 760px) {
-  .hero { padding: 80px 20px 56px; }
+  .hero { padding: 40px 20px 56px; }
   .hero h1 { font-size: 48px; letter-spacing: -.025em; }
   .hero p.hero-sub { font-size: 18px; }
 }
