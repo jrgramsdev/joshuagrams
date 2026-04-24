@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none" aria-hidden="true">
   <defs>
     <linearGradient id="p-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"  stop-color="#30d158" stop-opacity="0.9"/>
-      <stop offset="55%" stop-color="#30d158" stop-opacity="0.9"/>
+      <stop offset="0%"  stop-color="#ff6a00" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#ff6a00" stop-opacity="0.9"/>
       <stop offset="55%" stop-color="#ffffff" stop-opacity="0.15"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0.15"/>
     </linearGradient>
@@ -16,8 +16,8 @@
     <line x1="560" y1="150" x2="560" y2="214"/>
   </g>
   <g>
-    <line x1="344" y1="158" x2="344" y2="206" stroke="#30d158" stroke-width="2"/>
-    <circle cx="344" cy="148" r="5" fill="#30d158"/>
+    <line x1="344" y1="158" x2="344" y2="206" stroke="#ff6a00" stroke-width="2"/>
+    <circle cx="344" cy="148" r="5" fill="#ff6a00"/>
   </g>
   <text x="320" y="132" fill="#ffffff" fill-opacity="0.65" font-family="ui-monospace, monospace" font-size="11" text-anchor="middle">0.55 · DURATION_NO</text>
   <text x="80"  y="242" fill="#ffffff" fill-opacity="0.35" font-family="ui-monospace, monospace" font-size="10">0</text>

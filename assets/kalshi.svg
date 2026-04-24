@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none" aria-hidden="true">
   <defs>
     <linearGradient id="k-yes" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%"  stop-color="#30d158"/>
-      <stop offset="100%" stop-color="#30d158" stop-opacity="0.2"/>
+      <stop offset="0%"  stop-color="#ff6a00"/>
+      <stop offset="100%" stop-color="#ff6a00" stop-opacity="0.2"/>
     </linearGradient>
     <linearGradient id="k-no" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%"  stop-color="#0a84ff"/>
@@ -13,6 +13,6 @@
         stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.5" fill="none"/>
   <rect x="260" y="150" width="50" height="180" fill="url(#k-yes)" rx="4"/>
   <rect x="330" y="210" width="50" height="120" fill="url(#k-no)"  rx="4"/>
-  <text x="285" y="348" fill="#30d158" font-family="ui-monospace, monospace" font-size="11" text-anchor="middle" opacity="0.8">YES</text>
+  <text x="285" y="348" fill="#ff6a00" font-family="ui-monospace, monospace" font-size="11" text-anchor="middle" opacity="0.8">YES</text>
   <text x="355" y="348" fill="#0a84ff" font-family="ui-monospace, monospace" font-size="11" text-anchor="middle" opacity="0.8">NO</text>
 </svg>

@@ -15,9 +15,9 @@
   --fg-faint:     #6e6e73;
   --fg-line:      #27272a;
 
-  /* Accents — restrained, Apple-systemic */
-  --signal:       #30d158;      /* iOS system green — calmer than neon */
-  --signal-soft:  #30d15822;
+  /* Accents — neon orange on deep black */
+  --signal:       #ff6a00;      /* neon orange — bright but not cartoon */
+  --signal-soft:  #ff6a0022;
   --accent:       #0a84ff;      /* iOS system blue */
 
   /* Typography */
@@ -52,7 +52,7 @@ body {
   text-rendering: optimizeLegibility;
   letter-spacing: -.005em;
   background-image:
-    radial-gradient(1200px 600px at 15% -10%, rgba(48, 209, 88, .06), transparent 60%),
+    radial-gradient(1200px 600px at 15% -10%, rgba(255, 106, 0, .06), transparent 60%),
     radial-gradient(1000px 500px at 90% 110%, rgba(10, 132, 255, .05), transparent 60%);
   background-attachment: fixed;
 }
@@ -97,13 +97,13 @@ img { max-width: 100%; display: block; }
 .nav-brand .dot {
   width: 7px; height: 7px; border-radius: 50%;
   background: var(--signal);
-  box-shadow: 0 0 0 0 rgba(48, 209, 88, .5);
+  box-shadow: 0 0 0 0 rgba(255, 106, 0, .5);
   animation: live-pulse 2.2s var(--ease) infinite;
 }
 @keyframes live-pulse {
-  0%   { box-shadow: 0 0 0 0 rgba(48, 209, 88, .45); }
-  70%  { box-shadow: 0 0 0 10px rgba(48, 209, 88, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(48, 209, 88, 0); }
+  0%   { box-shadow: 0 0 0 0 rgba(255, 106, 0, .45); }
+  70%  { box-shadow: 0 0 0 10px rgba(255, 106, 0, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 106, 0, 0); }
 }
 .nav-links { display: flex; gap: 22px; font-size: 14px; align-items: center; }
 .nav-links a { color: var(--fg-dim); font-weight: 500; }
@@ -192,7 +192,7 @@ img { max-width: 100%; display: block; }
 .hero-tag .dot {
   width: 6px; height: 6px; border-radius: 50%;
   background: var(--signal);
-  box-shadow: 0 0 8px rgba(48, 209, 88, .6);
+  box-shadow: 0 0 8px rgba(255, 106, 0, .6);
 }
 .hero h1 {
   font-family: var(--font-display);
@@ -204,7 +204,7 @@ img { max-width: 100%; display: block; }
   max-width: 960px;
 }
 .hero h1 .emphasis {
-  background: linear-gradient(180deg, var(--signal), #72eb92);
+  background: linear-gradient(180deg, var(--signal), #ffa845);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -239,7 +239,7 @@ img { max-width: 100%; display: block; }
   border-color: transparent;
   font-weight: 600;
 }
-.btn.primary:hover { background: #72eb92; opacity: 1; }
+.btn.primary:hover { background: #ffa845; opacity: 1; }
 
 @media (max-width: 760px) {
   .hero { padding: 80px 20px 56px; }
@@ -309,7 +309,7 @@ img { max-width: 100%; display: block; }
   position: absolute; inset: 0;
   border-radius: inherit;
   padding: 1px;
-  background: linear-gradient(135deg, rgba(48, 209, 88, .3), transparent 40%, transparent 70%, rgba(10, 132, 255, .15));
+  background: linear-gradient(135deg, rgba(255, 106, 0, .3), transparent 40%, transparent 70%, rgba(10, 132, 255, .15));
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor; mask-composite: exclude;
   opacity: 0; transition: opacity .3s var(--ease);
