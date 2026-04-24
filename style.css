@@ -71,11 +71,18 @@ img { max-width: 100%; display: block; }
    ============================================================ */
 
 .nav {
-  position: sticky; top: 12px; z-index: 20;
-  margin: 12px auto 0;
+  position: fixed;
+  top: 12px;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  margin: 0 auto;
   max-width: calc(var(--max-w) + 24px);
   padding: 0 12px;
+  pointer-events: none;
 }
+.nav-inner { pointer-events: auto; }
+body { padding-top: 76px; }
 .nav-inner {
   background: rgba(18, 18, 22, .72);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -174,7 +181,7 @@ img { max-width: 100%; display: block; }
 .hero {
   max-width: var(--max-w);
   margin: 0 auto;
-  padding: 70px 28px 100px;
+  padding: 16px 28px 100px;
   position: relative;
 }
 .hero-tag {
@@ -242,7 +249,7 @@ img { max-width: 100%; display: block; }
 .btn.primary:hover { background: #ffa845; opacity: 1; }
 
 @media (max-width: 760px) {
-  .hero { padding: 40px 20px 56px; }
+  .hero { padding: 12px 20px 56px; }
   .hero h1 { font-size: 48px; letter-spacing: -.025em; }
   .hero p.hero-sub { font-size: 18px; }
 }
