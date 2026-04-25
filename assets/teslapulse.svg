@@ -6,10 +6,25 @@
       <stop offset="100%" stop-color="#e82127" stop-opacity="0"/>
     </linearGradient>
   </defs>
+  <!-- Faint always-visible base trace -->
   <path d="M20 180 L180 180 L210 100 L230 260 L260 140 L290 220 L320 60 L350 300 L380 180 L620 180"
-        stroke="url(#tp-pulse)" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+        stroke="#e82127" stroke-opacity="0.18" stroke-width="2" fill="none"
+        stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Active scanning trace with moving bright segment -->
+  <path d="M20 180 L180 180 L210 100 L230 260 L260 140 L290 220 L320 60 L350 300 L380 180 L620 180"
+        stroke="#e82127" stroke-width="2.5" fill="none"
+        stroke-linejoin="round" stroke-linecap="round"
+        stroke-dasharray="120 1400">
+    <animate attributeName="stroke-dashoffset" from="120" to="-1400" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <!-- Crosshair reticule -->
   <g opacity="0.16" fill="#fff">
     <rect x="250" y="138" width="140" height="5"/>
     <rect x="317" y="138" width="5" height="82"/>
   </g>
+  <!-- Soft heartbeat dot tracing up and down at center -->
+  <circle cx="320" cy="180" r="4" fill="#e82127">
+    <animate attributeName="cy" values="180;60;300;180" dur="1.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1; 0.5 0 0.5 1; 0.5 0 0.5 1"/>
+    <animate attributeName="opacity" values="1;0.7;1;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
 </svg>
