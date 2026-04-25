@@ -101,9 +101,17 @@ img { max-width: 100%; display: block; }
 .brand-tag {
   color: var(--fg-dim);
   font-weight: 400;
-  letter-spacing: .005em;
+  font-size: 12px;
+  letter-spacing: 0.005em;
+  white-space: nowrap;
 }
-@media (max-width: 820px) {
+.nav-brand {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.nav-inner { gap: 12px; }
+@media (max-width: 1024px) {
   .brand-sep, .brand-tag { display: none; }
 }
 .nav-brand .dot {
