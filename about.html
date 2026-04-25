@@ -5,13 +5,37 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>About Me · Joshua Grams</title>
   <meta name="description" content="Joshua Grams — 40, mechanical engineer and product developer based in West Palm Beach. 20+ years building hardware, the last few layering on software and AI." />
-  <link rel="stylesheet" href="style.css?v=5" />
+  <link rel="stylesheet" href="style.css?v=6" />
   <style>
     /* Hero */
     .about-hero {
       max-width: var(--max-w);
       margin: 0 auto;
       padding: 36px 28px 24px;
+      text-align: center;
+    }
+    .about-hero .lead { margin-left: auto; margin-right: auto; }
+    .about-portrait {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 24px;
+      border: 3px solid var(--signal);
+      box-shadow:
+        0 0 0 4px rgba(255, 106, 0, 0.10),
+        0 16px 40px rgba(0, 0, 0, 0.45);
+      background: var(--bg-2);
+    }
+    .about-portrait img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 25%;
+      display: block;
+    }
+    @media (max-width: 600px) {
+      .about-portrait { width: 130px; height: 130px; margin-bottom: 18px; }
     }
     .about-kicker {
       font-size: 11px;
@@ -209,6 +233,8 @@
       <a class="nav-brand" href="index.html" aria-label="Home">
         <span class="dot"></span>
         <span>jrgramsdev</span>
+        <span class="brand-sep" aria-hidden="true">·</span>
+        <span class="brand-tag">Mechanical engineer · Product development · AI systems</span>
       </a>
       <div class="nav-links">
         <a href="index.html#projects">Projects</a>
@@ -219,6 +245,9 @@
   </nav>
 
   <header class="about-hero">
+    <div class="about-portrait">
+      <img src="assets/josh-headshot.jpg" alt="Joshua Grams" />
+    </div>
     <div class="about-kicker"><span class="dot"></span>About me</div>
     <h1>Hi, I'm <em>Josh.</em></h1>
     <p class="lead">

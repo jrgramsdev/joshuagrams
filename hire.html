@@ -8,7 +8,7 @@
   <meta property="og:title" content="Hire Josh · AI engineering" />
   <meta property="og:description" content="Contract AI engineering. I built TeslaPulse — agent orchestration, data pipelines, security research." />
   <meta property="og:type" content="website" />
-  <link rel="stylesheet" href="style.css?v=5" />
+  <link rel="stylesheet" href="style.css?v=6" />
   <style>
     /* ---- Hire page — uses portfolio tokens, scoped overrides ---- */
     .hire-hero {
@@ -294,6 +294,8 @@
       <a class="nav-brand" href="index.html" aria-label="Home">
         <span class="dot"></span>
         <span>jrgramsdev</span>
+        <span class="brand-sep" aria-hidden="true">·</span>
+        <span class="brand-tag">Mechanical engineer · Product development · AI systems</span>
       </a>
       <div class="nav-links">
         <a href="index.html#projects">Projects</a>
@@ -309,17 +311,18 @@
   </section>
 
   <header class="hire-hero">
-    <div class="hire-kicker"><span class="dot"></span>Available · Contract AI engineering · 2026 bookings open</div>
-    <h1>Ship the AI product you're <em>trying to figure out.</em></h1>
+    <div class="hire-kicker"><span class="dot"></span>Available · Contract engineering · 2026 bookings open</div>
+    <h1>Ship the thing you're <em>trying to figure out.</em></h1>
     <p class="lead">
-      I'm Josh. I built <strong>TeslaPulse</strong> — a live dashboard tracking Tesla's
-      operating signals, paired with a <strong>Claude Code agent running inside the
-      Tesla's browser</strong> that I use to deploy features from the driver's seat.
-      I'm taking contract work in <strong>AI agent orchestration, data pipelines,
-      full-stack product builds, and security research</strong>.
+      I'm Josh. <strong>20+ years in mechanical engineering and product development</strong> —
+      including <strong>$10M manufacturing accounts</strong> at STIIIZY/Shryne and
+      <strong>$1.4M+ in proprietary hardware sales</strong> through 3GRAMS™. The last few years
+      I've layered on production software: <strong>algorithmic trading</strong>,
+      <strong>iOS + BLE reverse engineering</strong>, <strong>public-data dashboards</strong>,
+      <strong>Claude-driven agents</strong>, and <strong>security research</strong>.
       <br><br>
-      If you're figuring out how to actually put Claude, agents, or structured data
-      pipelines into production — that's the work I do.
+      I take contract work where the requirement is end-to-end shipping — backend,
+      frontend, infra, hardware coordination — solo or embedded with your team.
     </p>
   </header>
 
@@ -330,28 +333,38 @@
       <h2>What I've shipped</h2>
       <div class="proof-grid">
         <div class="proof-card">
-          <div class="stat">AI agent</div>
-          <h3>Claude Code running inside a Tesla</h3>
-          <p>Mac mini at home → WebSocket relay → in-car browser. I deploy features to production from the driver's seat by typing (or voice-prompting) the feature into my dashboard.</p>
+          <div class="stat">20+ yrs</div>
+          <h3>Hardware product dev &amp; manufacturing</h3>
+          <p>Concept → CAD → prototyping → overseas manufacturing → commercialization. Led <strong>$10M manufacturing accounts</strong> at STIIIZY/Shryne; founded 3GRAMS™ and scaled it past <strong>$1.4M+ in proprietary hardware sales</strong>.</p>
+        </div>
+        <div class="proof-card">
+          <div class="stat">Live $</div>
+          <h3>Production algorithmic trading on Binance.US</h3>
+          <p>Multi-indicator fusion (RSI / EMA / BB / MACD / VWAP), ATR-adaptive TP/SL, OCO order management, kill-switch risk engine. Real money in micro-mode since April 2026.</p>
+        </div>
+        <div class="proof-card">
+          <div class="stat">iOS · BLE</div>
+          <h3>Reverse-engineered a hardware BLE protocol from scratch</h3>
+          <p>SwiftUI app + Mac Catalyst. Cracked Puffco's AeroFrame protocol (SHA-256 challenge-response over GATT) to build an independent controller. FaceID, voice commands, cinematic HUD. TestFlight-ready.</p>
+        </div>
+        <div class="proof-card">
+          <div class="stat">Tactical</div>
+          <h3>Real-time defense dashboard demonstrator</h3>
+          <p>2D radar canvas with 360° sweep, range rings, threat blips. Simulated F-35 / F-16 / Su-57 / J-20 / Gripen telemetry, pilot biometrics, three-tier engagement controls (lock / track / engage). WebSocket broadcast.</p>
         </div>
         <div class="proof-card">
           <div class="stat">8,557</div>
-          <h3>Superchargers tracked daily</h3>
-          <p>Full-stack data pipeline: public JSON → SQLite → Fly.io-deployed dashboard. Globe visualization, charging-desert analysis, network timelapse — refreshed nightly.</p>
+          <h3>Tesla operating signals tracked daily</h3>
+          <p>Public-data ETL: JSON → SQLite → Fly.io-deployed dashboard. Superchargers, FSD miles, NHTSA recalls, SEC EDGAR, Form 4, Velocity Index. Every number cites its source. <a href="https://teslapulse.xyz" target="_blank" rel="noopener" style="color: var(--signal);">Live →</a></p>
         </div>
         <div class="proof-card">
-          <div class="stat">5</div>
-          <h3>Reproducible bugs found in Tesla's open-source Go code</h3>
-          <p>Coverage-guided fuzzing (<code>testing.F</code>) + Semgrep static audit. Each finding shipped with a runnable reproducer. Responsibly disclosed.</p>
-        </div>
-        <div class="proof-card">
-          <div class="stat">1 weekend</div>
-          <h3>v0 of TeslaPulse, end-to-end</h3>
-          <p>Dashboard, data collectors, agent bridge, deployment pipeline — from blank repo to live site. Shipping speed matters; I can move at startup tempo.</p>
+          <div class="stat">5 bugs</div>
+          <h3>Reproducible findings in Tesla's open-source Go code</h3>
+          <p>Coverage-guided fuzzing (<code>testing.F</code>) + Semgrep static audit. Each finding shipped with a runnable reproducer and responsible-disclosure timeline.</p>
         </div>
       </div>
       <p class="proof-note">
-        The rest of this site is the broader portfolio — KING50 Defense, KING50 Finance, PYRA, Kalshi, Polyclaw, 3GRAMS. Every card is live data; every signal has a working collector behind it. <a href="index.html#projects" style="color: var(--signal);">Poke around →</a>
+        Plus prediction-market trading infrastructure (Kalshi RSA-PSS auth · Polymarket EIP-712 CLOB · Kelly-sized risk engines), a Claude Code agent running inside a Tesla's browser, and an autonomous Instagram growth stack on Meta Graph API. <a href="index.html#projects" style="color: var(--signal);">See all the projects →</a>
       </p>
     </section>
 
@@ -410,16 +423,28 @@
       <h2>What I work on</h2>
       <div class="scope-grid">
         <div class="scope-card">
+          <h4>Hardware product development</h4>
+          <p>Concept through CAD, prototyping, overseas manufacturing (China factory partners), patent / trademark support, DFM. 20+ years of shipping physical product.</p>
+        </div>
+        <div class="scope-card">
           <h4>Claude Code &amp; agent workflows</h4>
-          <p>Building agents with tool use, prompt caching, thinking, structured output. Production-ready agent loops, not demos.</p>
+          <p>Production-ready agents with tool use, prompt caching, thinking, structured output. I run a Claude agent inside a moving Tesla — yours can ship to production from anywhere.</p>
+        </div>
+        <div class="scope-card">
+          <h4>Algorithmic trading &amp; financial systems</h4>
+          <p>Live execution on Binance.US, Kalshi (RSA-PSS), Polymarket (EIP-712). Risk engines, kill-switches, OCO orders, Kelly sizing — credentials never logged.</p>
         </div>
         <div class="scope-card">
           <h4>Data pipelines &amp; dashboards</h4>
-          <p>Public-data aggregation, scheduled collectors, visualizations. Stack: Node / Express / SQLite / Fly.io. Globe.gl, D3, custom charts.</p>
+          <p>Public-data aggregation, scheduled collectors, visualizations. Stack: Node / Express / SQLite / Fly.io / Globe.gl / D3. Source-cited numbers, no fluff.</p>
+        </div>
+        <div class="scope-card">
+          <h4>iOS / mobile &amp; BLE reverse engineering</h4>
+          <p>SwiftUI + Mac Catalyst. Core Bluetooth GATT, SHA-256 challenge-response auth, FaceID, voice via SFSpeech. I've taken proprietary BLE protocols apart.</p>
         </div>
         <div class="scope-card">
           <h4>Security research</h4>
-          <p>Coverage-guided fuzzing (Go <code>testing.F</code>), Semgrep with composed rulesets, govulncheck reachability, CI/CD posture audit.</p>
+          <p>Coverage-guided fuzzing (Go <code>testing.F</code>), Semgrep with composed rulesets, govulncheck reachability, CI/CD posture audit. Disclosure-ready writeups.</p>
         </div>
         <div class="scope-card">
           <h4>Full-stack AI-native products</h4>
