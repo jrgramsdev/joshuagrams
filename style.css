@@ -322,11 +322,12 @@ img { max-width: 100%; display: block; }
   font-variant-numeric: tabular-nums;
 }
 .stat-label {
-  font-size: 13.5px;
+  font-size: 11px;
   color: var(--fg-dim);
   margin-top: 12px;
-  font-weight: 500;
-  letter-spacing: -.005em;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
 }
 
 @media (max-width: 640px) {
